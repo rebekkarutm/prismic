@@ -1,0 +1,197 @@
+{
+  "id": "text_slice",
+  "type": "SharedSlice",
+  "name": "TextSlice",
+  "description": "TextSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "text_field": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text Field",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "options": [
+              "Blue",
+              "Green"
+            ]
+          }
+        },
+        "text_color": {
+          "type": "Select",
+          "config": {
+            "label": "Text Color",
+            "placeholder": "",
+            "options": [
+              "Light",
+              "Dark"
+            ]
+          }
+        },
+        "text_align": {
+          "type": "Select",
+          "config": {
+            "label": "Text Align",
+            "placeholder": "",
+            "options": [
+              "Left",
+              "Center"
+            ]
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "textWithButton",
+      "name": "Text with Button",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "text_field": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text Field",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "options": [
+              "Blue",
+              "Green"
+            ]
+          }
+        },
+        "text_color": {
+          "type": "Select",
+          "config": {
+            "label": "Text Color",
+            "placeholder": "",
+            "options": [
+              "Light",
+              "Dark"
+            ]
+          }
+        },
+        "text_align": {
+          "type": "Select",
+          "config": {
+            "label": "Text Align",
+            "placeholder": "",
+            "options": [
+              "Left",
+              "Center"
+            ]
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "textButtonCenter",
+      "name": "Text Button Center",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "text_field": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text Field",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "options": [
+              "Blue",
+              "Green"
+            ]
+          }
+        },
+        "text_color": {
+          "type": "Select",
+          "config": {
+            "label": "Text Color",
+            "placeholder": "",
+            "options": [
+              "Light",
+              "Dark"
+            ]
+          }
+        },
+        "text_align": {
+          "type": "Select",
+          "config": {
+            "label": "Text Align",
+            "placeholder": "",
+            "options": [
+              "Left",
+              "Center"
+            ]
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Button Label",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
