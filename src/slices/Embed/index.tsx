@@ -24,7 +24,7 @@ const Embed = ({ slice }: EmbedProps): JSX.Element => {
       >
         <PrismicRichText field={slice.primary.title} />
       </TextField>
-      <div dangerouslySetInnerHTML={{ __html: slice.primary.embed.html }} />
+      <div dangerouslySetInnerHTML={{ __html: slice.primary.embed.html as TrustedHTML }} />
     </EmbedContainer>
   );
 };
